@@ -5,7 +5,6 @@ def bubble_sort(array)
     for i in 0...array.length - 1 do
       if array[i] > array[i + 1]
         sorted = false
-        puts "Swap!"
         tmp = array[i + 1]
         array[i + 1]  = array[i]
         array[i] = tmp
